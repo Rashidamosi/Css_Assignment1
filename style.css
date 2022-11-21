@@ -1,0 +1,27 @@
+/*FOR LIKES*/
+
+h1#likes{
+  background-color: rgb(240, 51, 130);
+}
+
+.likes_list{
+  background-color: rgb(75, 189, 255);
+} /*All elements under the ordered list inherited this colour*/
+
+.likes_items{
+  background-color: rgb(130, 253, 7);
+} /*This will now overide the colour due to specificity*/
+
+/*FOR DISLIKES*/
+
+h1#dislikes{
+  background-color: rgb(255, 114, 38);
+}
+
+#dislikes_list{
+  background-color: rgb(238, 255, 0);
+} /*All elements under the ordered list inherited this colour, Also Ids are more specific than clases*/
+
+.dislikes_items{
+  background-color: rgb(253, 7, 241);
+} /*This will now overide the colour due to specificity*/
