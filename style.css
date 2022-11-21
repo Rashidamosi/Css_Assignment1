@@ -20,7 +20,7 @@ h1#dislikes{
 
 #dislikes_list{
   background-color: rgb(238, 255, 0);
-} /*All elements under the ordered list inherited this colour, Also Ids are more specific than clases*/
+} /*All elements under the ordered list inherited this colour, Also Ids are more specific than classes*/
 
 .dislikes_items{
   background-color: rgb(253, 7, 241);
